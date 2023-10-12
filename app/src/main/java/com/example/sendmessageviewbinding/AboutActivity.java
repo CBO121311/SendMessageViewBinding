@@ -3,13 +3,9 @@ package com.example.sendmessageviewbinding;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
-
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-
 import com.danielstone.materialaboutlibrary.MaterialAboutActivity;
 import com.danielstone.materialaboutlibrary.items.MaterialAboutActionItem;
-import com.danielstone.materialaboutlibrary.items.MaterialAboutTitleItem;
 import com.danielstone.materialaboutlibrary.model.MaterialAboutCard;
 import com.danielstone.materialaboutlibrary.model.MaterialAboutList;
 
@@ -35,7 +31,7 @@ public class AboutActivity extends MaterialAboutActivity {
                 .text("Fork on GitHUB")
                 .icon(R.drawable.ic_action_share)
                 .setOnClickAction(() -> {
-                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/CBO121311"));
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/CBO121311/SendMessageViewBinding"));
                     startActivity(intent);
                 })
                 .build());

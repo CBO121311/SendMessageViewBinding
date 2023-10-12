@@ -3,20 +3,15 @@ package com.example.sendmessageviewbinding;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.EditText;
-import android.widget.Toast;
 
 import com.example.sendmessageviewbinding.databinding.ActivitySendMessageBinding;
 import com.example.sendmessageviewbinding.model.data.Message;
 import com.example.sendmessageviewbinding.model.data.Person;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 /**
  * Es la clase que se consideraría el MainActivity del proyecto y es la que se inicia cuando
