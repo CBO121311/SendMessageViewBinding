@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="tvTitleMessage_textSize">30sp</dimen>
+    <dimen name="tvSendMessageTextView_textSize">20sp</dimen>
     <dimen name="tvTextView_textSize">15sp</dimen>
 </resources>

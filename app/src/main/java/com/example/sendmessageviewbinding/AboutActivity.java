@@ -39,6 +39,14 @@ public class AboutActivity extends MaterialAboutActivity {
                     startActivity(intent);
                 })
                 .build());
+        authorCard.addItem(new MaterialAboutActionItem.Builder()
+                .text("Mi LinkedIn")
+                .icon(R.drawable.ic_action_linkedin)
+                .setOnClickAction(() -> {
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/alecbo/"));
+                    startActivity(intent);
+                })
+                .build());
 
 
         MaterialAboutCard.Builder cardBuilder = new MaterialAboutCard.Builder();

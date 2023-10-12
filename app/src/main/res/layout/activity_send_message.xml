@@ -16,7 +16,7 @@
         android:fontFamily="@font/notosansregular"
         android:text="@string/tvTitleMessage"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textSize="20sp"
+        android:textSize="@dimen/tvSendMessageTextView_textSize"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/edMessage"
         app:layout_constraintEnd_toEndOf="parent"
