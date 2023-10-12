@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SendMessage</string>
+    <string name="tvTitleMessage">Escribe el mensaje</string>
+    <string name="tvUserInfoText">Muestra información del usuario</string>
+    <string name="tvMessageText">Información del mensaje</string>
+    <string name="mal_title_about">Sobre</string>
+    <string name="menu_aboutas">Sobre mi</string>
+</resources>
