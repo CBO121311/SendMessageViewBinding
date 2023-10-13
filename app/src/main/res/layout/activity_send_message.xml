@@ -7,16 +7,15 @@
     tools:context=".SendMessageActivity">
 
     <TextView
-
         android:id="@+id/tvTitleMessage"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="200dp"
+        android:layout_marginStart="@dimen/tvTextView_MarginStart"
+        android:layout_marginEnd="@dimen/tvTextView_MarginEnd"
         android:fontFamily="@font/notosansregular"
         android:text="@string/tvTitleMessage"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textSize="@dimen/tvSendMessageTextView_textSize"
+        android:textSize="@dimen/tvTitleMessage_textSize"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/edMessage"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,16 +23,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.8" />
 
-
     <EditText
         android:id="@+id/edMessage"
         android:layout_width="0dp"
         android:layout_height="550dp"
-        android:layout_margin="15dp"
+        android:layout_margin="@dimen/etEditText_Margin"
         android:background="@color/md_theme_light_secondary"
         android:gravity="top|start"
         android:inputType="textMultiLine"
-        android:padding="8dp"
+        android:padding="@dimen/etEditText_Padding"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,7 +41,7 @@
         android:id="@+id/fab"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
+        android:layout_margin="@dimen/btnButton_Margin"
         android:backgroundTint="@color/seed"
         android:src="@drawable/ic_action_send"
         app:layout_constraintBottom_toBottomOf="parent"
