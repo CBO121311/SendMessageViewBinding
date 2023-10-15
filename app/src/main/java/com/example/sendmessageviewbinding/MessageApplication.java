@@ -4,7 +4,7 @@ import android.app.Application;
 import android.util.Log;
 
 /**
- * Esta clase sirve para comprobar los registros (Logcat) y saber como funciona la aplicación
+ * Clase que sirve para comprobar los registros (Logcat) y saber como funciona la aplicación
  * @author Alejandro López
  * @version 1.0
  */

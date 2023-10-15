@@ -111,8 +111,10 @@ public class SendMessageActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ViewActivity.class);
         Bundle bundle = new Bundle();
 
-        Person persone = new Person("Alejandro", "López", "12345678A");
-        Person persond = new Person("Pedro", "Gallardo", "24567787B");
+        Person persone = new Person(getString(R.string.person_name_alejandro),
+                getString(R.string.person_surname_alejandro), getString(R.string.person_dni_alejandro));
+        Person persond = new Person(getString(R.string.person_name_pedro),
+                getString(R.string.person_surname_pedro), getString(R.string.person_dni_pedro));
 
         Message message = new Message(1, binding.edMessage.getText().toString(), persone, persond);
 

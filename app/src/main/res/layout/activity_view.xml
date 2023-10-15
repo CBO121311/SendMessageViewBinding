@@ -10,22 +10,23 @@
         android:id="@+id/tvUserInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/tvTextView_Margin"
+        android:layout_margin="@dimen/tvTextView_margin"
         android:layout_weight="0.10"
         android:background="@color/seed"
-        android:padding="@dimen/tvTextView_Padding"
+        android:padding="@dimen/tvTextView_padding"
         android:text="@string/tvUserInfoText"
-        android:textSize="@dimen/tvTextView_textSize" />
+        android:textStyle="bold"
+        android:textSize="@dimen/tvTextView_title_sendMessage_textSize" />
 
     <TextView
         android:id="@+id/tvMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/tvTextView_Margin"
+        android:layout_margin="@dimen/tvTextView_margin"
         android:layout_weight="1"
         android:background="@color/md_theme_dark_primary"
         android:gravity="top|start"
-        android:padding="@dimen/tvTextView_Padding"
+        android:padding="@dimen/tvTextView_padding"
         android:text="@string/tvMessageText"
         android:textColor="@color/white"
         android:textSize="@dimen/tvTextView_textSize" />

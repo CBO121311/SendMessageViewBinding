@@ -71,14 +71,10 @@ public class ViewActivity extends AppCompatActivity {
 
     /**
      * Método que inicializa todas las vistas a widgets de la interfaz o del Layout
-     * */
+     */
     private void initiliceView() {
-        String userinfo = message.getSender().getName() + " " + message.getSender().getSurname() +
-                " con DNI: " + message.getSender().getDni() + " envió un mensaje";
-
-
-        userinfo += "\n\n" + message.getReceiver().getName() + " " + message.getReceiver().getSurname() +
-                " con DNI: " + message.getReceiver().getDni() + " recibió un mensaje";
+        String userinfo = String.format("%s %s con DNI %s envió un mensaje:",
+                message.getSender().getName(), message.getSender().getSurname(), message.getSender().getDni());
 
         binding.tvUserInfo.setText(userinfo);
         binding.tvMessage.setText(message.getContent());

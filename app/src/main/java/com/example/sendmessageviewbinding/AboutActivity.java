@@ -12,6 +12,7 @@ import com.danielstone.materialaboutlibrary.model.MaterialAboutList;
 /***
  * Clase que muestra la información acerca de la aplicación y su autor.
  *
+ * Créitos: daniel-stoneuk por la librería de GitHub
  * @author Alejandro López
  * @version 1.0
  */
@@ -21,34 +22,33 @@ public class AboutActivity extends MaterialAboutActivity {
     protected MaterialAboutList getMaterialAboutList(@NonNull Context context) {
 
         MaterialAboutCard.Builder authorCard = new MaterialAboutCard.Builder();
-        authorCard.title("Autor");
+        authorCard.title(R.string.about_autor);
         authorCard.addItem(new MaterialAboutActionItem.Builder()
-                .text("Alejandro López")
-                .subText("Alumno 2ºDAM")
+                .text(R.string.about_alejandro_l_pez)
+                .subText(R.string.about_alumno_2_dam)
                 .icon(R.drawable.ic_action_person)
                 .build());
         authorCard.addItem(new MaterialAboutActionItem.Builder()
-                .text("Fork on GitHUB")
+                .text(R.string.abut_bifurcar_en_github)
                 .icon(R.drawable.ic_action_share)
                 .setOnClickAction(() -> {
-                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/CBO121311/SendMessageViewBinding"));
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.about_url_repos_GitHub)));
                     startActivity(intent);
                 })
                 .build());
         authorCard.addItem(new MaterialAboutActionItem.Builder()
-                .text("Mi LinkedIn")
+                .text(R.string.about_mi_linkedin)
                 .icon(R.drawable.ic_action_linkedin)
                 .setOnClickAction(() -> {
-                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/alecbo/"));
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.about_url_linkedin)));
                     startActivity(intent);
                 })
                 .build());
 
-
         MaterialAboutCard.Builder cardBuilder = new MaterialAboutCard.Builder();
         cardBuilder.addItem(new MaterialAboutActionItem.Builder()
-                .text("Version")
-                .subText("1.0.0")
+                .text(R.string.about_version)
+                .subText(R.string.about_num_version)
                 .icon(R.drawable.ic_action_info)
                 .build());
 
@@ -59,6 +59,10 @@ public class AboutActivity extends MaterialAboutActivity {
     }
 
 
+    /***
+     * Método sobreescrito que muestra el título de la actividad
+     * @return devuelve la cadena "Acerca de"
+     */
     @Override
     protected CharSequence getActivityTitle() {
         return getString(R.string.mal_title_about);

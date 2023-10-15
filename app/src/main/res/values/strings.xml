@@ -3,6 +3,21 @@
     <string name="tvTitleMessage">Escribe el mensaje</string>
     <string name="tvUserInfoText">Muestra información del usuario</string>
     <string name="tvMessageText">Información del mensaje</string>
-    <string name="mal_title_about">Sobre</string>
+    <string name="mal_title_about">Acerca de</string>
     <string name="menu_aboutas">Sobre mi</string>
+    <string name="about_url_repos_GitHub" translatable="false">https://github.com/CBO121311/SendMessageViewBinding</string>
+    <string name="about_url_linkedin" translatable="false">https://www.linkedin.com/in/alecbo/</string>
+    <string name="abut_bifurcar_en_github">Bifurcar en GitHub</string>
+    <string name="about_alejandro_l_pez" translatable="false">Alejandro López</string>
+    <string name="about_alumno_2_dam">Alumno 2ºDAM</string>
+    <string name="about_mi_linkedin">Mi LinkedIn</string>
+    <string name="about_autor">Autor</string>
+    <string name="about_version">Versión</string>
+    <string name="about_num_version" translatable="false">1.1.0</string>
+    <string name="person_name_alejandro" translatable="false">Alejandro</string>
+    <string name="person_surname_alejandro" translatable="false">López</string>
+    <string name="person_dni_alejandro" translatable="false">12345678A</string>
+    <string name="person_name_pedro" translatable="false">Pedro</string>
+    <string name="person_surname_pedro" translatable="false">Gallardo</string>
+    <string name="person_dni_pedro" translatable="false">24567787B</string>
 </resources>

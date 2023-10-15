@@ -29,7 +29,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
-    //Habilitamos el binding Android Studio 4.0 o superiores
+
     viewBinding {
         enable = true
     }

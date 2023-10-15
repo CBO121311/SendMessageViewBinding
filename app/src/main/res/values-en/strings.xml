@@ -6,4 +6,9 @@
     <string name="tvMessageText">The message information</string>
     <string name="mal_title_about">About</string>
     <string name="menu_aboutas">About me</string>
+    <string name="abut_bifurcar_en_github">Fork on GitHub</string>
+    <string name="about_alumno_2_dam">Student 2ºDAM</string>
+    <string name="about_mi_linkedin">My Linkedin</string>
+    <string name="about_autor">Author</string>
+    <string name="about_version">Version</string>
 </resources>

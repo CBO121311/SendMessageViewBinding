@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="tvTitleMessage_textSize">20sp</dimen>
-    <dimen name="tvTitleMessage_Land_textSize">30sp</dimen>
-    <dimen name="tvTextView_textSize">15sp</dimen>
-    <dimen name="tvTextView_Margin">15dp</dimen>
-    <dimen name="tvTextView_MarginStart">15dp</dimen>
-    <dimen name="tvTextView_MarginEnd">200dp</dimen>
-    <dimen name="tvTextView_Padding">10dp</dimen>
-    <dimen name="tvTextView_Land_MarginStart">15dp</dimen>
-    <dimen name="tvTextView_Land_MarginTop">44dp</dimen>
-    <dimen name="tvTextView_Land_MarginEnd">400dp</dimen>
-    <dimen name="etEditText_Margin">15dp</dimen>
-    <dimen name="etEditText_Padding">8dp</dimen>
-    <dimen name="btnButton_Margin">15dp</dimen>
+    <dimen name="tvTitleMessage_land_textSize">30sp</dimen>
+    <dimen name="tvTextView_textSize">20sp</dimen>
+    <dimen name="tvTextView_title_sendMessage_textSize">22sp</dimen>
+    <dimen name="tvTextView_margin">15dp</dimen>
+    <dimen name="tvTextView_marginStart">15dp</dimen>
+    <dimen name="tvTextView_marginEnd">200dp</dimen>
+    <dimen name="tvTextView_padding">10dp</dimen>
+    <dimen name="tvTextView_land_marginStart">15dp</dimen>
+    <dimen name="tvTextView_land_marginTop">44dp</dimen>
+    <dimen name="tvTextView_land_marginEnd">400dp</dimen>
+    <dimen name="etEditText_margin">15dp</dimen>
+    <dimen name="etEditText_padding">8dp</dimen>
+    <dimen name="btnButton_margin">15dp</dimen>
 </resources>
